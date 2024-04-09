@@ -161,14 +161,6 @@ main {
 }
 
 
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
 #social-networks i{
     font-size: 160%;
     padding: 5%;
@@ -223,6 +215,23 @@ main {
 #benefits-mental > div {
     text-align: end;
     align-self: flex-end;
+}
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+#photos {
+    line-height: 0;
+} 
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* Media query for tablets(992px and up) */
